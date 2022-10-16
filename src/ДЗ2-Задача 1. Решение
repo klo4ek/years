@@ -1,0 +1,9 @@
+fun main(args: Array<String>) {
+        val n = 843
+        val x = n / 100
+        val y = n % 10
+        val z = n / 10
+        val zS = z % 10
+        val nS = x + y + zS
+        println("Result=$nS")
+}
