@@ -1,7 +1,9 @@
 fun main() {
     val n = 38578378
     val x = n / 360
-    val y = n / 12
+    val y = n / 30
 
     println(x)
     println(y)
+    
+    }
