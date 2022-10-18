@@ -1,3 +1,7 @@
+import java.util.*
+import kotlin.math.cos
+import kotlin.math.sqrt
+
 fun main() {
     val scanner = Scanner(System."in")
 
@@ -7,7 +11,8 @@ fun main() {
 
     // TODO solution
     // sqrt(a2+b2 - 2abcosy)
+    
     val rad = Math.toRadians(y)
-    val res = sqrt(a*a + b*b - 2 * a * b * cos(rad))
+    var res = sqrt(a * a + b * b)
 
     println("Result is $res")
